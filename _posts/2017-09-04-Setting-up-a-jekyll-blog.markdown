@@ -3,7 +3,7 @@ layout: post
 title: Setting up a Jekyll blog 
 comments: true
 ---
-In this quick and easy guide, we will setup a blog using Jekyll and host it on GitHub!!
+In this quick and easy guide, we will setup a blog using Jekyll and host it on GitHub!
 
 ### **Prerequisites**
 
