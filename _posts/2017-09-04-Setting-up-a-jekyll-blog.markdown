@@ -111,7 +111,7 @@ This is the Jekyll configuration file where we can store global variables. We ar
 
  We can also add a Disqus comment box to our blog posts and Minima inherently supports it. Just add your Disqus [shortname](https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-) in `_config.yml` as shown above. That's it for now, we can come back and change `_config.yml` as needed. 
 
-**PS:** Whenever we change `_config.yml`, we need to run `$ jekyll serve` again to see the changes.
+**PS:** Whenever you alter `_config.yml`, you need to run `$ jekyll serve` again to see the changes.
 
 #### _posts
 This is where we can write and store our blog entries. They can be written in HTML or Markdown, Jekyll is smart enough to convert them to webpages. Each blog post is named in a certain fashion: `YYYY-MM-DD-my-blog-post-title.md`. This way, Jekyll can organize and store the blog entries by date. An example blog entry would be `2017-09-04-first-post.md`. Here is my finished post:
@@ -141,7 +141,7 @@ More info [here](https://tosbourn.com/what-is-the-gemfile/).
 This directory is not created by Jekyll, but by the user. Sooner or later, we'll have a need to add media and styling to our posts. This is where assets come into play. Here is an example of adding an image stored in our assets directory through Markdown:
 
 ```markdown
-![Alt-text](/my-blog/assets/img/my-image.png)
+![Brief description of my-image](/my-blog/assets/img/my-image.png)
 ```
 
 **PS:** It's a good practice to store the images within a separate directory inside assets.
@@ -161,31 +161,31 @@ So that was a wrap regarding the structure of our blog. It is up and running and
 
 ### **Hosting on GitHub**
 
-GitHub is an excellent place to host static content. Here's an overview of how it works:
-
-* Create a repo on GitHub e.g. `my-blog`. Put all the blog files there.
-
-* By default, the files will be on the `master` branch. Create a new branch named `gh-pages`. If the sole aim is to host content, delete the `master` branch.
-
-* The blog is now live at `https://<github-user-name>.github.io/my-blog`
-
-Let's get started. First, create a new empty repo on Github by your blog name. Mine is `my-blog` and so the corresponding Git repo URL will be:
+GitHub is an excellent place to host static content. First, create a new empty repo on Github by your blog name. My GitHub username and blog are `rxhl` and `my-blog` respectively, so the corresponding Git repo URL will be:
 
 ```markdown
-https://github.com/<github-user-name>/my-blog.git
+https://github.com/rxhl/my-blog.git
 ```
-
-Next, follow the commands below to push your files to the GitHub repo.
+Link your local repo to the remote one.
 
 ```bash
-$ git remote add origin https://github.com/<github-user-name>/my-blog.git
+$ git remote add origin https://github.com/rxhl/my-blog.git
+```
+By default, the files will be on the `master` branch. Create a new branch named `gh-pages`. 
+
+```bash
 $ git checkout -b gh-pages
+```
+If the sole aim is to host content, delete the `master` branch.
+
+Next, commit your changes and push it to the remote repo.
+
+```bash
 $ git add .
-$ git commit -am "Initial commit"
+$ git commit -m "initial commit"
 $ git push origin gh-pages
 ```
-
-*Voila!* The blog is now live at `https://github.com/<github-user-name>/my-blog`.
+*Voila!* The blog is now live at `https://github.com/rxhl/my-blog`.
 
 
 ### **Furthermore**
