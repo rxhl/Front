@@ -155,7 +155,7 @@ As shown above, we must include the YAML Front Matter and import the base theme.
 
 #### _site
 
-Recalling from the previous section, Jekyll is essentially an engine that converts our posts to static webpages that can be hosted on a server. `_site` is where Jekyll places our finished webpages. 
+Recalling from the previous section, Jekyll is an engine that converts our posts to static webpages that can be hosted on a server. `_site` is where Jekyll places our finished webpages. 
 
 So that was a wrap regarding the structure of our blog. It is up and running and ready to be shared with the world. In the next section, we will put our blog on GitHub and make it go live!
 
