@@ -3,9 +3,7 @@ layout: post
 title: Setting up a Jekyll blog 
 comments: true
 ---
-Up and running.
-
-<img class="no-shadow" alt="Jekyll logo" src="/Front/assets/img/1/jekyll.png" style="width: 50%; height: auto; display: block; margin: 0 auto;"/>
+In this quick and easy guide, we will setup our first Jekyll blog!
 
 ### **Prerequisites**
 
@@ -23,6 +21,8 @@ A minimal and static blog (like this one!) to be hosted on GitHub pages. We'll w
 
 ### **But what is Jekyll?**
 
+<img class="no-shadow" alt="Jekyll logo" src="/Front/assets/img/1/jekyll.png" style="width: 50%; height: auto; display: block; margin: 0 auto;"/>
+
 >Jekyll is a simple, blog-aware, static site generator.
 
 Okay, let's break it down. The usual way of putting up a website (or a blog) is to write some HTML, add in some CSS, put in some assets and host it on the server. In this process, we need to make sure that nothing is broken, all the links are working fine and the server is up and running. Imagine doing this for every blog post we write. Tedious, isn't it? 
@@ -34,9 +34,6 @@ Jekyll generates static webpages and so, it's faster than traditional CMS platfo
 <img class="no-shadow" alt="Jekyll flow" src="/Front/assets/img/1/flow.png" style="width: 500px; height: auto; display: block; margin: 0 auto;"/>
 <p style="text-align: center; font-size:15px;"><em>A simple overview of Jekyll</em></p>
 
-***
-<br>
-
 ### **Install Jekyll**
 
 This guide has been written for Mac users and should be fine with Linux users as well. Windows users see this [resource](https://jekyllrb.com/docs/windows/#installation) first.
@@ -45,44 +42,43 @@ We’re going to install Jekyll locally before deploying anything to GitHub page
 
 Jekyll is essentially a Ruby CLI and Ruby comes packaged with Mac. In case you don't have Ruby, you can get it from [here](https://www.ruby-lang.org/en/documentation/installation/). The first thing we're going to do is to install the Xcode Command Line Tools.
 
-{% highlight bash %}
+```bash
 $ xcode-select --install
-{% endhighlight %}
+```
 
 Now, we will install Bundler which is a package manager that will aid us in installing all the Jekyll dependencies.
 
-{% highlight bash %}
+```bash
 $ sudo gem install bundler
-{% endhighlight %}
+```
 
 Perfect, so we can now install Jekyll:
 
-{% highlight bash %}
+```bash
 $ gem install jekyll
-{% endhighlight %}
+```
 
 After Jekyll is done installing, you should be able to look it up from the Terminal.
 
-{% highlight bash %}
+```bash
 $ jekyll -v
-{% endhighlight %}
+```
 
 Now, it's the time to create our blog! I'm going to create one on the desktop but feel free to choose any directoy you want.
 
-{% highlight bash%}
+```bash
 $ cd ~/Desktop
 
 $ jekyll new my-blog
-{% endhighlight %}
+```
 
 Next, initialize a new Git repository.
 
-{% highlight bash%}
+```bash
 $ cd my-blog
 
 $ git init
-{% endhighlight %}
-
+```
 
 And so, Jekyll generates a bunch of files within the my-blog folder.
 
@@ -91,17 +87,14 @@ And so, Jekyll generates a bunch of files within the my-blog folder.
 
 Now, we just need to run the serve command:
 
-{% highlight bash %}
+```bash
 $ jekyll serve
-{% endhighlight %}
+```
 
 The blog is now live and can be viewed at `localhost:4000`. Jekyll uses the port 4000 by default which can further be changed if needed. The minimal design of the blog is due to the [Minima](https://github.com/jekyll/minima) theme that comes as default while creating a new Jekyll blog.
 
 <img alt="Welcome to Jekyll!" src="/Front/assets/img/1/welcome-jekyll.png" style="width: 960px; height: auto; display: block; margin: 0 auto;"/>
 <p style="text-align: center; font-size:15px;"><em>Welcome to Jekyll!</em></p>
-
-***
-<br>
 
 ### **Customizing Jekyll**
 
@@ -110,7 +103,7 @@ So we have successfully created our first Jekyll blog and now we are ready to ti
 <img alt="Directory" src="/Front/assets/img/1/dir.png" style="width: 960px; height: auto; display: block; margin: 0 auto;"/>
 <p style="text-align: center; font-size:15px;"><em>Directory of the blog</em></p>
 
-#### **_config.yml**
+#### _config.yml
 This is the Jekyll configuration file where we can store global variables. We are going to modify some values and add a few options so that it can be hosted on GitHub. Fire up your favorite text editor and change it as follows. Here's my finished file:
 
 <img alt="_config.yml" src="/Front/assets/img/1/config.png" style="width: 960px; height: auto; display: block; margin: 0 auto;"/>
@@ -120,7 +113,7 @@ This is the Jekyll configuration file where we can store global variables. We ar
 
 **PS:** Whenever we change `_config.yml`, we need to run `$ jekyll serve` again to see the changes.
 
-#### **_posts**
+#### _posts
 This is where we can write and store our blog entries. They can be written in HTML or Markdown, Jekyll is smart enough to convert them to webpages. Each blog post is named in a certain fashion: `YYYY-MM-DD-my-blog-post-title.md`. This way, Jekyll can organize and store the blog entries by date. An example blog entry would be `2017-09-04-first-post.md`. Here is my finished post:
 
 <img alt="Blog post" src="/Front/assets/img/1/blog-post.png" style="width: 960px; height: auto; display: block; margin: 0 auto;"/>
@@ -132,24 +125,24 @@ Before we move further, let's analyze the blog post we just wrote. As shown in t
 
 [Here](http://jekyllrb.com/docs/posts/) is some extra info for writing blog posts (e.g. adding images, tables).
 
-#### **about.md**
+#### about.md
 
 This is another page provided by the Minima theme to write some details about the author/organization/blog, pretty straightforward. We can edit it in Markdown or HTML or both!
 
 
-#### **Gemfile**
+#### Gemfile
 
 >A Gemfile is a file we create which is used for describing gem dependencies for Ruby programs. A gem is a collection of Ruby code that we can extract into a "collection" which we can call later.
 
 More info [here](https://tosbourn.com/what-is-the-gemfile/).
 
-#### **assets**
+#### assets
 
 This directory is not created by Jekyll, but by the user. Sooner or later, we'll have a need to add media and styling to our posts. This is where assets come into play. Here is an example of adding an image stored in our assets directory through Markdown:
 
-{% highlight markdown %}
+```markdown
 ![Alt-text](/my-blog/assets/img/my-image.png)
-{% endhighlight %}
+```
 
 **PS:** It's a good practice to store the images within a separate directory inside assets.
 
@@ -160,14 +153,11 @@ Now, although we can add in-line styling in our posts but that's rather a cumber
 
 As shown above, we must include the YAML Front Matter and import the base theme. We can also write custom Sass and Jekyll will compile it for us!
 
-#### **_site**
+#### _site
 
 Recalling from the previous section, Jekyll is essentially an engine that converts our posts to static webpages that can be hosted on a server. `_site` is where Jekyll places our finished webpages. 
 
 So that was a wrap regarding the structure of our blog. It is up and running and ready to be shared with the world. In the next section, we will put our blog on GitHub and make it go live!
-
-***
-<br>
 
 ### **Hosting on GitHub**
 
@@ -181,9 +171,9 @@ GitHub is an excellent place to host static content. Here's an overview of how i
 
 Let's get started. First, create a new empty repo on Github by your blog name. Mine is `my-blog` and so the corresponding Git repo URL will be:
 
-{% highlight markdown %}
+```markdown
 https://github.com/<github-user-name>/my-blog.git
-{% endhighlight %}
+```
 
 Next, follow the commands below to push your files to the GitHub repo.
 

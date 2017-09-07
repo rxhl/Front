@@ -5,9 +5,9 @@ tagline: A few more words about this theme
 permalink: /about.html
 ---
 
-This is the _Cayman Blog_ Jekyll theme. You can find out more info about customizing this theme, as well as basic usage documentation, and source code at: [cayman-blog](https://github.com/lorepirri/cayman-blog)
+>The best way to learn is to teach. 
 
-You can find the source code for _Jekyll_ at [jekyll](https://github.com/jekyll/jekyll)
+Front was started by [Rahul](http://rahulxsharma.com) as a means to understand, organize and share the vastness of Front-End development, one topic at a time, on Mondays, for a year.
 
+*PS: Please, go drink more water, right now. Most people are un-knowingly dehydrated.*
 
-[Go to the Home Page]({{ site.url }}{{ site.baseurl }})
