@@ -31,7 +31,7 @@ Jekyll takes the pain out of it. It takes in our blog post (written in HTML or M
 
 Jekyll generates static webpages and so, it's faster than traditional CMS platforms like WordPress becuase there is nothing to be retrieved from the database. No database leads to fewer security challenges that are commonplace with CMS platforms.
 
-<img class="no-shadow" alt="Jekyll flow" src="/Front/assets/img/1/flow.png" style="width: 500px; height: auto; display: block; margin: 0 auto;"/>
+<img class="no-shadow" alt="Jekyll flow" src="/Front/assets/img/1/flow.jpg" style="width: 500px; height: auto; display: block; margin: 0 auto;"/>
 <p style="text-align: center; font-size:15px;"><em>A simple overview of Jekyll</em></p>
 
 ### **Install Jekyll**
