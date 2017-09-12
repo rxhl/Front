@@ -44,10 +44,10 @@ Before we go behind the scenes, let's define some important terms.
 Now, let's say we have an application to manage the student records in a class. We can then **view**, **add**, **edit** or **delete** a student record, as in a CRUD application.
 
 ```
-http://myschool.com/class1/view_record?name=Bruce
-http://myschool.com/class1/add_new_record?name=Thomas
-http://myschool.com/class1/edit_record?name=Martha
-http://myschool.com/class1/delete_record?name=Bruce
+/class1/view_record?name=Bruce
+/class1/add_new_record?name=Thomas
+/class1/edit_record?name=Martha
+/class1/delete_record?name=Bruce
 ```
 This works fine but the problem arises when everyone starts implementing their own APIs. For instance, `/view_record?name=Bruce` can also be defined as `/records/Bruce`.
 
@@ -61,17 +61,17 @@ Let's rewrite our student example in a RESTful way, using the HTTP verbs (GET, P
 
 Get all records:
 ```
-GET http://myschool.com/class1
+GET /class1
 ```
 
 Get a specific record:
 ```
-GET http://myschool.com/class1/Bruce
+GET /class1/Bruce
 ```
 
 Add a new record:
 ```
-POST http://myschool.com/class1/Thomas
+POST /class1/Thomas
 {
 	"Age": "20",
 	"Location": "USA"
@@ -80,7 +80,7 @@ POST http://myschool.com/class1/Thomas
 
 Edit a record:
 ```
-PUT http://myschool.com/class1/Thomas
+PUT /class1/Thomas
 {
 	"Age": "22"
 }
@@ -88,7 +88,7 @@ PUT http://myschool.com/class1/Thomas
 
 Delete a specific record:
 ```
-DELETE http://myschool.com/class1/Bruce
+DELETE /class1/Bruce
 ```
 
 Evidently, a much better way to read and write data over the web.
