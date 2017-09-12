@@ -35,7 +35,7 @@ It might seem that only the consumer benefits from the APIs but in reality, it w
 
 Before we go behind the scenes, let's define some important terms.
 
-* **HTTP:** Unsurprisingly, Web APIs work in a request-response mode. The client requests the HTTP server for data and the server (iff the request was successful aka 200) sends it back in JSON/XML.
+* **HTTP:** Unsurprisingly, Web APIs work in a request-response mode. The client requests the HTTP server for data and the server (iff the request was successful, 2xx) sends it back in JSON/XML.
 
 * **Resource:** The nouns, the representation of objects. The location of restaurants and the weather in the previous examples are nothing but resources.
 
