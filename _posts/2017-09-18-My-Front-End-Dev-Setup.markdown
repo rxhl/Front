@@ -127,12 +127,16 @@ I use [Grunt](https://gruntjs.com/) to watch changes to my files, compiling Sass
 
 ### **8. Design**
 
-I come from Photoshop background but fell in love with [Sketch](https://www.sketchapp.com/). It is a paid app but the features it provides are totally worth it. 
+I come from a Photoshop background but fell in love with [Sketch](https://www.sketchapp.com/). Although it's a paid app but the features it provides are totally worth it. Additionally, I use [Balsamiq](https://balsamiq.com/) for quick wireframing.
 
 <img class="no-shadow" alt="Sketch" src="/Front/assets/img/3/sketch.png" style="width: 200px; height: auto; display: block; margin: 0 auto;"/>
 <p style="text-align: center; font-size:15px;"><em>source: sketchapp.com</em></p>
 
-I also use [Balsamiq](https://balsamiq.com/) for quick wireframing.
+#### **Sketch Plugins** (All free)
+
+[Craft](https://www.invisionapp.com/craft): Create InVision like user-flows within Sketch.
+
+[Magic Mirror](https://magicsketch.io/mirror/): Add perspectives to your prototypes.
 
 <hr>
 
