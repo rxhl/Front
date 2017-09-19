@@ -3,7 +3,9 @@ layout: post
 title: My Front-End Dev Setup
 comments: true
 ---
-The editor, tools and plugins I use to amp up my dev environment. This list is not meant to be an endorsement for anything, but my personal workflow preferences.
+The editor, tools and plugins I use to amp up my dev environment. 
+
+This list is not meant to be an endorsement for anything, but my personal workflow preferences.
 
 <img class="no-shadow" alt="Front-End Dev Environment" src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif" style="width: 50%; height: auto; display: block; margin: 0 auto;"/>
 <p style="text-align: center; font-size:15px;"><em>Source: giphy.com</em></p>
