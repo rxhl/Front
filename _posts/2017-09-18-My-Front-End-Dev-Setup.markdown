@@ -10,7 +10,7 @@ This list is not meant to be an endorsement for anything, but my personal workfl
 <img class="no-shadow" alt="Front-End Dev Environment" src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif" style="width: 50%; height: auto; display: block; margin: 0 auto;"/>
 <p style="text-align: center; font-size:15px;"><em>Source: giphy.com</em></p>
 
-### **1. MacBook Pro Retina 13"**
+### **1. System**
 
 I use an early 2015 [MacBook Pro Retina 13"](https://www.apple.com/shop/buy-mac/macbook-pro?product=MPXR2LL/A&step=config#) running Sierra. It comes with 8 GB DDR3 and 128 GB of storage. If you're in school and planning to buy one, try your university store as I got a sweet deal on mine!
 
@@ -27,15 +27,15 @@ I prefer [Brackets](http://brackets.io/) for small projects. It's fast, lightwei
 
 #### **Brackets Plugins** (All free)
 
-[Emmet](https://emmet.io/): Write ultra-fast HTML and CSS.
+**[Emmet](https://emmet.io/):** Write ultra-fast HTML and CSS.
 
-[Brackets File Tree](http://brackets.dnbard.com/extension/lamo2k123.brackets-file-tree): Visual display of the tree of files and folders.
+**[Brackets File Tree](http://brackets.dnbard.com/extension/lamo2k123.brackets-file-tree):** Visual display of the tree of files and folders.
 
-[Brackets Git](https://github.com/brackets-userland/brackets-git): Git inside Brackets.
+**[Brackets Git](https://github.com/brackets-userland/brackets-git):** Git inside Brackets.
 
-[Custom Work](https://github.com/DH3ALEJANDRO/custom-work-for-brackets): Creates a bar on top of each editor for manage tabs.
+**[Custom Work](https://github.com/DH3ALEJANDRO/custom-work-for-brackets):** Creates a bar on top of each editor for manage tabs.
 
-Theme: Brackets Dark
+**Theme:** Brackets Dark
 
 #### **2. b. WebStorm** (Free/Paid)
 
@@ -74,15 +74,15 @@ No guessing here, Chrome FTW! However, I recently switched to the developer vers
 
 #### **Chrome Extensions** (All free)
 
-[Pushbullet](https://www.pushbullet.com/): Seamless transfer of data among devices.
+**[Pushbullet](https://www.pushbullet.com/):** Seamless transfer of data among multiple devices.
 
-[LastPass](https://www.lastpass.com/): Use better passwords.
+**[LastPass](https://www.lastpass.com/):** Use better passwords.
 
-[ColorZilla](http://www.colorzilla.com/): Picks color from webpages.
+**[ColorZilla](http://www.colorzilla.com/):** Picks color from webpages.
 
-[Adblock Plus](https://adblockplus.org/): We hate ads.
+**[Adblock Plus](https://adblockplus.org/):** We hate ads.
 
-[Wolfram Alpha](https://www.wolframalpha.com/): `=` + `Tab` in the address bar and see the magic!
+**[Wolfram Alpha](https://www.wolframalpha.com/):** `=` + `Tab` in the address bar and see the magic!
 
 <hr>
 
@@ -106,7 +106,7 @@ A CSS preprocessor can help modularize your CSS files and decrease complexity wh
 
 ### **6. JS Task Runner**
 
-I use [Grunt](https://gruntjs.com/) to watch changes to my files, compiling Sass/TS, minification among other stuff.
+Task runners take care of menial and repetitve things in your code. I use [Grunt](https://gruntjs.com/) to watch changes to my files, compiling Sass/TS, minification among other stuff.
 
 <img class="no-shadow" alt="Grunt" src="/Front/assets/img/3/grunt.png" style="width: 200px; height: auto; display: block; margin: 0 auto;"/>
 <p style="text-align: center; font-size:15px;"><em>source: gruntjs.com</em></p>
@@ -134,20 +134,20 @@ I come from a Photoshop background but fell in love with [Sketch](https://www.sk
 
 #### **Sketch Plugins** (All free)
 
-[Craft](https://www.invisionapp.com/craft): Create InVision like user-flows within Sketch.
+**[Craft](https://www.invisionapp.com/craft):** Create InVision like user-flows within Sketch.
 
-[Magic Mirror](https://magicsketch.io/mirror/): Add perspectives to your prototypes.
+**[Magic Mirror](https://magicsketch.io/mirror/):** Add perspectives to your prototypes.
 
 <hr>
 
 ### **Furthermore**
 
-[Noisli](https://www.noisli.com/): Ambient noise for increased productivity.
+**[Noisli](https://www.noisli.com/):** Ambient noise for increased productivity.
 
-[Lighthouse](https://developers.google.com/web/tools/lighthouse/): Performance optimization for websites.
+**[Lighthouse](https://developers.google.com/web/tools/lighthouse/):** Performance optimization for websites, now integrated with Chrome Dev Tools.
 
-[GitHub Student Pack](https://education.github.com/pack): Free stuff for students
+**[GitHub Student Pack](https://education.github.com/pack):** Free/discounted stuff for students including cloud hosting, domain names and account upgrades.
 
-Podcasts: [CodeNewbie](https://www.codenewbie.org/), [Front End Happy Hour](https://twitter.com/FrontEndHH)
+**Podcasts:** Great way for acquiring knowledge passively. My picks are [CodeNewbie](https://twitter.com/CodeNewbies) and [Front End Happy Hour](https://twitter.com/FrontEndHH).
 
-I also use [Meetup](https://www.meetup.com/) and [Eventbrite](https://www.eventbrite.com/) to find local dev meetups.
+I also use [Meetup](https://www.meetup.com/) and [Eventbrite](https://www.eventbrite.com/) to find and attend local dev meetups.
