@@ -26,8 +26,6 @@ D3.js was created by [Mike Bostock](https://bost.ocks.org/mike/), Vadim Ogievets
 
 ### **2. Why would you use D3?**
 
-Square, NY Times and 
-
 **I. Make data driven decisions**
 
 Visualizations help businesses filter the noise and see the trend in the data. D3.js is more than just a charting library, it provides a variety of visualization tools including both static and interactive to see the data the way you want to. 
