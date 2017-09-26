@@ -13,7 +13,7 @@ In this tutorial, we will go through the following.
 1. What is D3?
 2. Why would you use D3?
 3. Shapes, Helpers and Scales in D3
-4. Scatter plot with D3
+4. Creating a scatter plot in D3
 
 
 ### **1. What is D3?**
