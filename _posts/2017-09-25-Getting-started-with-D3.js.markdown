@@ -233,7 +233,7 @@ var yScale = d3.scaleLinear()
 		
 var rScale = d3.scaleLinear()
 	.domain([0, d3.max(dataset, function(d) { return d[2]; })])
-	.range([10, 30]); Custom scale
+	.range([1, 30]); // Custom scale range
 	
 // Axes
 var xAxis = d3.axisBottom(xScale); // handy axes for any orientation
