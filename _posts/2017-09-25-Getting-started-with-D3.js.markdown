@@ -195,7 +195,7 @@ More info about D3 scales can be found [here](https://github.com/d3/d3-scale).
 
 <hr>
 
-### **4. Scatter plot with D3**
+### **4. Creating a scatter plot in D3**
 
 We are now ready to create our first (or 100th) scatter plot. First, let's create a `div` element that will contain our SVG plot.
 
