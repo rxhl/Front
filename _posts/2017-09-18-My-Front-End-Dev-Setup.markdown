@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My Front-End Dev Setup
+title: My Front-End Dev setup
 comments: true
 ---
 The editor, tools and plugins I use to amp up my dev environment. 
