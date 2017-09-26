@@ -114,7 +114,7 @@ First, we define an SVG element that will contain our shapes. The SVG element ca
 	</body>
 </html>
 ```
-Here is the result. If you try resizing the browser window, notice that the quality of the image is not compromised.
+Here is the result. If you try zooming in or out, notice that the quality of the image is not compromised.
 
 <script src="https://d3js.org/d3.v4.min.js"></script>
 
@@ -205,10 +205,10 @@ We are now ready to create our first (or 100th) scatter plot. First, let's creat
 Now, let's create our SVG element.
 
 ```javascript
-const w = 500, h = 500, pad = 50; // a little padding for the plot
+const w = 500, h = 500, pad = 50; // // defining width and height of the SVG element; and a little padding for the plot
 		
-var svg = d3.select("#plot")
-	.append("svg")
+var svg = d3.select("#plot") // Select the plot element from the DOM
+	.append("svg") // Append an SVG element to it
 	.attr("height", h)
 	.attr("width", w);
 ```
@@ -223,17 +223,17 @@ Create the scales and axes.
 
 ```javascript
 // Scales
-var xScale = d3.scaleLinear()
+var xScale = d3.scaleLinear() // For the X axis
 	.domain([0, d3.max(dataset, function(d) { return d[0]; })])
 	.range([pad, w - pad]);
 		
-var yScale = d3.scaleLinear()
+var yScale = d3.scaleLinear() // For the Y axis
 	.domain([0, d3.max(dataset, function(d) { return d[1]; })])
 	.range([h - pad, pad]);
 		
-var rScale = d3.scaleLinear()
+var rScale = d3.scaleLinear() // Custom scale for the radii
 	.domain([0, d3.max(dataset, function(d) { return d[2]; })])
-	.range([1, 30]); // Custom scale range
+	.range([1, 30]); // Custom range, change it to see the effects!
 	
 // Axes
 var xAxis = d3.axisBottom(xScale); // handy axes for any orientation
@@ -243,8 +243,8 @@ Plotting the data.
 
 ```javascript
 var circ = svg.selectAll("circle") // Returns ALL matching elements
-	.data(dataset)
-	.enter()
+	.data(dataset) // Bind data to DOM
+	.enter() // Add one circle per such data point
 	.append("circle")
 	.attr("cx", function(d) { return xScale(d[0]); })
 	.attr("cy", function(d) { return yScale(d[1]); })
