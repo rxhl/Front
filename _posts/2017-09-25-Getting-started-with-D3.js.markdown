@@ -68,7 +68,7 @@ More examples can be viewed in the D3 [gallery](https://github.com/d3/d3/wiki/Ga
 D3 is an open-source library and its source code can be found on [GitHub](https://github.com/d3/d3). It is one of the **most-starred** and **most-forked** repos on GitHub and contributed to by hundreds of developers. It also supports wrappers for other javascript libraries such as React and Leaflet, as built by other developers. 
 
 
-<img class="no-shadow" alt="D3.js logo" src="https://media.giphy.com/media/y5gweIjtEZ8d2/giphy.gif" style="width: 50%; height: auto; display: block; margin: 0 auto;"/>
+<img class="no-shadow" alt="Open source" src="https://media.giphy.com/media/y5gweIjtEZ8d2/giphy.gif" style="width: 50%; height: auto; display: block; margin: 0 auto;"/>
 <p style="text-align: center; font-size:15px;"><em>Source: giphy.com</em></p>
 
 <hr>
@@ -348,11 +348,13 @@ var circ = svg.selectAll("circle")
 		
 </script>
 
+As you add more points to `dataset`, the plot will automatically reflect it. 
+
 <hr>
 
 ### **Furthermore**
 
-Hope you liked this brief intro to D3. A few helpful resources are listed below.
+Hope you liked this brief intro to D3. Here are a few helpful resources,
 
 * https://github.com/d3/d3/wiki/gallery
 * https://bl.ocks.org/mbostock
