@@ -16,7 +16,7 @@ According to [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closu
 
 >A closure is the combination of a function and the lexical environment within which that function was declared.
 
-The things here to note are **function** and **lexical** environment. Here is a nested JavaScript function.
+The things here to note are **function** and **lexical** environment. Now, here is a nested JavaScript function.
 
 ```javascript
 function factor(a) {
