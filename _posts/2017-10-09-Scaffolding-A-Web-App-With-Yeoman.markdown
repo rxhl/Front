@@ -98,6 +98,6 @@ Your application is now live at `localhost:9000` without writing a single line o
 This is extremely handy while starting out a new project. While this was for a generic application, similar *recipes* exist for scaffolding an [Angular](https://github.com/yeoman/generator-angular) or [React](https://github.com/react-webpack-generators/generator-react-webpack) app as well. They can be viewed [here](http://yeoman.io/generators/).
 
 
-### Furthermore
+### **Furthermore**
 
 Hope you liked this quick intro to Yeoman. I too wish I had discovered it earlier! Get started with the official Yeoman [docs](http://yeoman.io/learning/index.html).
