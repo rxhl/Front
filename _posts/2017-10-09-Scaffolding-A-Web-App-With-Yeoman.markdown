@@ -43,7 +43,7 @@ The Yeoman team does a really good job in putting up their introduction.
 
 >Yeoman helps you to kickstart new projects, prescribing best practices and tools to help you stay productive.
 
-Yeoman allows us to focus on our application rather than setting up its environment and it works for *any* kind of application, well mostly. Essentially, we run a bunch of commands and Yeoman creates a full fledged workflow for us aka *scaffolding*. Let's get started!
+Yeoman allows us to focus on our application rather than setting up its environment and it works for *any* kind of application, well mostly. Essentially, we run a bunch of commands and Yeoman creates a full-fledged workflow for us aka *scaffolding*. Let's get started!
 
 ### **Scaffolding a web app**
 
