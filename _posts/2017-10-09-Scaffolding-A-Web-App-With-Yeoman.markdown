@@ -83,12 +83,12 @@ Select your options and Yeoman will install the required NPM and Bower component
 Next run the gulpfile to build your application.
 
 ```
-gulp build
+$ gulp build
 ```
 And serve it.
 
 ```
-gulp serve
+$ gulp serve
 ```
 Your application is now live at `localhost:9000` without writing a single line of code. 
 
