@@ -360,4 +360,4 @@ Hope you liked this brief intro to D3. Here are a few helpful resources,
 * https://bl.ocks.org/mbostock
 * https://square.github.io/intro-to-d3/
 
-And an amazing [Game of Thrones](https://mimno.github.io/showcase/project2/got/) visualization to conclude.
+And an amazing Game of Thrones [visualization](https://mimno.github.io/showcase/project2/got/) to conclude.
