@@ -42,7 +42,7 @@ The point here to note is that slice() **does not** change the original array.
 splice() takes three (or more) arguments.
 
 * **Begin:** The starting index, zero by default.
-* **deleteCount:** A number indicating the elements to remove. If zero, then nothing will be removed. If undefined or greater than the length of the array, all the elements will be removed.
+* **deleteCount:** The number indicating the elements to remove. If zero, then nothing will be removed. If undefined or greater than the length of the array, all the elements will be removed.
 * **items:** The element(s) to be added to the array starting from `Begin` index.
 
 Here are some examples.
