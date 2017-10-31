@@ -6,7 +6,7 @@ comments: true
 
 In this post, we will discuss the two new ways to declare a variable &mdash; Let and Const as introduced in ES6. 
 
-<img class="no-shadow" alt="D3.js logo" src="/Front/assets/img/5/vanilla.jpg" style="width: 40%; height: auto; display: block; margin: 0 auto;"/>
+<img class="no-shadow" alt="Vanilla" src="/Front/assets/img/5/vanilla.jpg" style="width: 40%; height: auto; display: block; margin: 0 auto;"/>
 <p style="text-align: center; font-size:15px;"><em>Vanilla</em></p>
 
 But first, what is ES6? In the most basic (and laziest) terms, it is the new JavaScript version as released by [ECMA](https://www.ecma-international.org/), the standards body for JavaScript. ES6 comes with some new and shiny features such as let and const. You may read the ES6 official docs [here](https://www.ecma-international.org/ecma-262/6.0/).
