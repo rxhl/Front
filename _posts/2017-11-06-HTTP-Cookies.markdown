@@ -26,7 +26,7 @@ In browsers such as Chrome, cookies are stored as an entry in the [SQLite](https
 
 ### **Baking HTTP Cookies**
 
-We all have seen the cookie policy notification while browsing certain websites. 
+We all have seen the cookie policy notification while browsing certain websites.
 
 <img alt="Cookie structure" src="/Front/assets/img/10/thomas.png" style="width: 100%; height: auto; display: block; margin: 0 auto;"/>
 <p style="text-align: center; font-size:15px;"><em>Cookie policy</em></p>
@@ -55,7 +55,7 @@ Just as cookies come in a variety of flavors from vanilla to spearmint, HTTP coo
 * **Third-party cookie:** Ads storing cookies through a legitimate website.
 * **Zombie cookie:** A cookie that gets recreated after deletion.
 
-Of course, cookies have disadvantages too. Attackers can hijack the cookie and steal user data or drop a malicious cookie into the user's system and track their activities. Read more about it [here](https://en.wikipedia.org/wiki/Session_hijacking).
+Of course, cookies have disadvantages too. Attackers can hijack a cookie and steal user data or drop a malicious cookie into the user's system and track their activities. Read more about it [here](https://en.wikipedia.org/wiki/Session_hijacking).
 
 ### **Furthermore**
 * [HTTP Cookies by MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies)
