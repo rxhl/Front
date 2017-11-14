@@ -13,7 +13,7 @@ Relational databases (RDBMS) have long been a cornerstone in the computing indus
 
 ### **Challenges with traditional databases**
 
-* Not a good fit for large data volume (~Petabytes) with varying datatypes e.g. images and videos.
+* Not a good fit for large data volume with varying datatypes e.g. images and videos.
 
 * [Vertical scaling](https://en.wikipedia.org/wiki/Scalability#Horizontal_and_vertical_scaling) is feasible only upto a certain extent.
 
