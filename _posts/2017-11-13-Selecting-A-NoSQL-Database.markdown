@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Selecting a NoSQL Database
+title: Selecting the right NoSQL Database
 comments: true
 ---
 
@@ -13,9 +13,9 @@ Relational databases (RDBMS) have long been a cornerstone in the computing indus
 
 ### **Challenges with traditional databases**
 
-* Not a good fit for large data volume with varying datatypes e.g. images and videos.
+* Not a good fit for large data volume with varying elements e.g. images and videos.
 
-* [Vertical scaling](https://en.wikipedia.org/wiki/Scalability#Horizontal_and_vertical_scaling) is feasible only upto a certain extent.
+* [Vertical scaling](https://en.wikipedia.org/wiki/Scalability#Horizontal_and_vertical_scaling) is feasible only up to a certain extent.
 
 * [Sharding](https://en.wikipedia.org/wiki/Shard_(database_architecture)) causes operational problems e.g. managing shard failures.
 
@@ -48,7 +48,7 @@ Most popular, most diverse. Best suited for applications with varied data requir
 
 **When to use them?**
 
-* Backend of large websites with a high volume of R/W using JSON.
+* Large websites with a high volume of reads and writes.
 
 * Real-time analysis and high speed logging.
 
