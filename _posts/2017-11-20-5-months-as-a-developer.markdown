@@ -34,7 +34,7 @@ The online tutorials are great for a quick intro but if you're looking for a dee
 
 Being a developer does not necessarily translates to writing non-stop code for 8 hours. Interestingly, the greater part of time is spent on reading code rather than writing.
 
-Indulging in the whole software development process, from creating wireframes to writing docs and everything in between, helps achieve a broader view of the product. 
+Indulging in the whole software development process, from creating wireframes to writing docs and everything in between, helps achieve a broader view of the product. It breaks the monotone and enables participation in decision making process regarding the business goals (see #2).
 
 <img class="no-shadow" alt="New Developer" src="https://media.giphy.com/media/1Z02vuppxP1Pa/giphy.gif
 " style="width: 60%; height: auto; display: block; margin: 0 auto;"/>
