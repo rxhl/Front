@@ -36,6 +36,6 @@ Being a developer does not necessarily translates to writing non-stop code for 8
 
 Indulging in the whole software development process, from creating wireframes to writing docs and everything in between, helps achieve a broader view of the product. It breaks the monotone and enables participation in the decision making process regarding the business goals (see #2).
 
-*********
+********
 
 Thank you for reading this far. Let me know what you think in the comments below!
