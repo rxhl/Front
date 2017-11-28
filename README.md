@@ -1,4 +1,4 @@
 # Front
-Exploring the realms of Front-End development, every Monday, for a year.
+Exploring the realms of Front-End development.
 
 http://www.rahulxsharma.com/Front/
