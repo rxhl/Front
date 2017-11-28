@@ -37,7 +37,7 @@ Relational databases (RDBMS) have long been a cornerstone in the computing indus
 
 * Scalable replication and distribution.
 
-Now we have SQL vs NoSQL differences cleared out, it's time to dig in some of the most popular options and their use cases.
+So now we have SQL vs NoSQL differences cleared out, it's time to dig in some of the most popular options and their use cases.
 
 ### **I. Document Store**
 
